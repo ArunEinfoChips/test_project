@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
   root 'pages#home'
  # get "/application", to: "application#hello"
+ get 'about' , to: "pages#about"
 end
